@@ -1,0 +1,117 @@
+.fullscreen-product {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fullscreen__body-product {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.product__content {
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mySlides {
+    display: none;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*-------------Контент товара-------------*/
+.sz {
+    font-size: 18px;
+}
+.container__links-products {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.links_products {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  font-weight: 600;
+}
+.links_products a:first-child:hover, .links_products a:nth-child(2):hover, .links_products a:last-child:hover  {
+  color: white;
+  opacity: 0.5;
+  transition: 0.25s;
+}
+.links_products a:first-child {
+  background-color: blue;
+  width: 150px;
+  margin-bottom: 5px;
+  color: white;
+}
+.links_products a:nth-child(2) {
+  background-color: purple;
+  width: 150px;
+  margin-bottom: 5px;
+  color: white;
+}
+.links_products a:last-child {
+  background-color: rgb(187, 190, 12);
+  width: 150px;
+  color: white;
+}
+/*-------------Галлерея товара-------------*/
+.product__content-st {
+    width: 70%;
+}
+.presentation-content {
+    position: relative;
+}
+.presentation-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.gallery-content {
+    display: flex;
+    width: 100%;
+  }
+  .gallery-content img{
+    width: 15%;
+    cursor: pointer;
+  }
+  .demo {
+    opacity: 0.8;
+  }
+  .active, .demo:hover {
+    opacity: 1;
+  }
+
+.mySlides {
+    display: none;
+  }
+  
+/*-------------Описание товара-------------*/
+.product__content-nd {
+    width: 30%;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product__details-text {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.product__details-text div:first-child {
+    margin-bottom: 15px;
+}
+.product__details-text div:last-child {
+    text-align: start;
+    font-size: 16px;
+}

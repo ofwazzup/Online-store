@@ -1,0 +1,36 @@
+footer {
+	width: 100%;
+	/* min-height: 10vh; */
+    color: white;
+}
+.footer {
+    /* min-height: 10vh; */
+    width: 100%;
+    vertical-align: middle;
+}
+.footer ul li a {
+    color: white;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+.footer div:first-child {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.ml-nd {
+    margin-left: 250px;
+}
+.footer div:last-child {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-style: italic;
+    color: rgb(142, 142, 142);
+}
+.footer p {
+    margin: 0;
+}

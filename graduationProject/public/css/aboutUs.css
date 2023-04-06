@@ -1,0 +1,62 @@
+.fullscreen__body-contact {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.aboutUs-img {
+    background: url('../img/contact.jpg') center / cover no-repeat;
+    width: 200px;
+    height: 200px;
+    border: solid 1px rgb(27, 27, 27);
+}
+.fullscreen__body-contact div:first-child {
+    margin-top: 20px;
+}
+.fullscreen__body-contact div:nth-child(2) {
+    margin-top: 10px;
+}
+.container__aboutUs-img {
+    display: flex;
+    justify-content: center;
+}
+.fullscreen__body-contact div:nth-child(4) {
+    margin-top: 10px;
+    font-weight: 600;
+}
+.fullscreen__body-contact div:nth-child(5) {
+    margin-top: 10px;
+}
+/*-------------Форма-------------*/
+.container__form {
+    text-align: left;
+    width: 70%;
+}
+form {
+    padding: 40px 50px 45px;
+}
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+label {
+    font-weight: 600;
+}
+.error {
+    color: red;
+    font-weight: 400;
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+.form-control.error {
+    border-color: red;
+    padding: .375rem .75rem;
+}
+.container__form-contact {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
